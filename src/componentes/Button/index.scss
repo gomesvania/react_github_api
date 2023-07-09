@@ -1,0 +1,17 @@
+.button {
+    width: 120px;
+    padding: 15px 10px;
+    border: none;
+
+    &.default {
+        background: #ccc;
+    }
+
+    &.red {
+        background: #ff6565;
+    }
+
+    &.blue {
+        background: #65bdff;
+    }
+}
