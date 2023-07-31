@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import Repositorios from './routes/Repositorios';
+import Repo from './routes/Repo';
 import './index.scss';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/repos/:username",
-        element: <Repositorios />
+        element: <Repo />
       }
     ]
   }
