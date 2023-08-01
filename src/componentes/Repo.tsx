@@ -4,7 +4,7 @@ import { AiOutlineStar, AiOutlineFork } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
 import { RiGitRepositoryLine } from "react-icons/ri";
 
-import classes from "./Repo.module.css";
+import classes from "../componentes/Repo.module.css";
 
 const Repo = ({
   name,
